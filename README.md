@@ -45,3 +45,17 @@ symfony composer req orm-fixtures --dev
 
 PHP CS Fixer is a very useful tool for automatically formatting code according to coding standards (like PSR-12). Here's how to use it with a Symfony project.
 composer require --dev friendsofphp/php-cs-fixer
+
+#### git begining command 
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/magrigsdev/Projet_php_b2_Hotel.git
+git push -u origin main
+
+
+…or push an existing repository from the command line
+git remote add origin https://github.com/magrigsdev/Projet_php_b2_Hotel.git
+git branch -M main
+git push -u origin main
