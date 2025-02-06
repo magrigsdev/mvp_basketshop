@@ -1,1 +1,13 @@
-salut
+php vendor/bin/php-cs-fixer fix
+
+php run_tests.php  
+
+
+set APP_ENV=test
+php bin/console doctrine:database:create
+
+set APP_ENV=test
+php bin/console make:migration
+
+set APP_ENV=test
+php bin/console doctrine:migrations:migrate

@@ -1,0 +1,6 @@
+PHPUnit 9.6.22 by Sebastian Bergmann and contributors.
+
+Runtime:       PHP 8.3.9
+Configuration: D:\PROJETS\MVP_BASKETSHOP\mvp_basketshop\phpunit.xml.dist
+
+No tests executed!
