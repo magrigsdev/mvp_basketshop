@@ -16,3 +16,8 @@ AIDE MEMOIRE  ...
 
 -- creer un entity 
 php bin/console make:entity
+
+symfony php bin/phpunit
+
+
+
